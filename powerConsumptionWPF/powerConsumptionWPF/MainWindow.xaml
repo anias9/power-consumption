@@ -11,7 +11,7 @@
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="41*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="lblPrice" Content="Cena za 1KWh (w Polsce średni koszt to 0,57zł)" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Width="261" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblPrice" Content="Price for 1KWh (in Poland average price is 0,57PLN)" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Width="289" Grid.ColumnSpan="2"/>
         <Label x:Name="lblPower" Content="Liczba godzin używnia w ciągu dnia" HorizontalAlignment="Left" Margin="10,173,0,0" VerticalAlignment="Top" Width="208" Grid.ColumnSpan="2"/>
         <Label x:Name="lblNumber" Content="Liczba urządzeń" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Width="261" Grid.ColumnSpan="2"/>
         <Label x:Name="lblHours" Content="Moc urządzenia [W]" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="261" Grid.ColumnSpan="2"/>
