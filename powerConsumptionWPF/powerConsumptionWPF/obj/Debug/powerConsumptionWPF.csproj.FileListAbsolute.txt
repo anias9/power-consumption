@@ -1,0 +1,15 @@
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\bin\Debug\powerConsumptionWPF.exe.config
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\bin\Debug\powerConsumptionWPF.exe
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\bin\Debug\powerConsumptionWPF.pdb
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\obj\Debug\powerConsumptionWPF.csprojAssemblyReference.cache
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\obj\Debug\App.g.cs
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\obj\Debug\powerConsumptionWPF_MarkupCompile.cache
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\obj\Debug\powerConsumptionWPF_MarkupCompile.lref
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\obj\Debug\MainWindow.baml
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\obj\Debug\powerConsumptionWPF.g.resources
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\obj\Debug\powerConsumptionWPF.Properties.Resources.resources
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\obj\Debug\powerConsumptionWPF.csproj.GenerateResource.cache
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\obj\Debug\powerConsumptionWPF.csproj.CoreCompileInputs.cache
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\obj\Debug\powerConsumptionWPF.exe
+C:\Users\Window$\source\repos\powerConsumptionWPF\powerConsumptionWPF\obj\Debug\powerConsumptionWPF.pdb
