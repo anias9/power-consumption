@@ -1,0 +1,7 @@
+C:\Users\Window$\source\repos\powerConsumptionServer\powerConsumptionServer\bin\Debug\powerConsumptionServer.dll.config
+C:\Users\Window$\source\repos\powerConsumptionServer\powerConsumptionServer\bin\Debug\powerConsumptionServer.dll
+C:\Users\Window$\source\repos\powerConsumptionServer\powerConsumptionServer\bin\Debug\powerConsumptionServer.pdb
+C:\Users\Window$\source\repos\powerConsumptionServer\powerConsumptionServer\obj\Debug\powerConsumptionServer.csprojAssemblyReference.cache
+C:\Users\Window$\source\repos\powerConsumptionServer\powerConsumptionServer\obj\Debug\powerConsumptionServer.csproj.CoreCompileInputs.cache
+C:\Users\Window$\source\repos\powerConsumptionServer\powerConsumptionServer\obj\Debug\powerConsumptionServer.dll
+C:\Users\Window$\source\repos\powerConsumptionServer\powerConsumptionServer\obj\Debug\powerConsumptionServer.pdb
