@@ -5,28 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:powerConsumptionWPF"
         mc:Ignorable="d"
-        Title="Koszt użytkowania podanego urządzenia" Height="450" Width="800">
+        Title="Using price for specific device" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="3*"/>
-            <ColumnDefinition Width="41*"/>
+            <ColumnDefinition Width="54*"/>
+            <ColumnDefinition Width="89*"/>
+            <ColumnDefinition Width="649*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="lblPrice" Content="Price for 1KWh (in Poland average price is 0,57PLN)" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Width="289" Grid.ColumnSpan="2"/>
-        <Label x:Name="lblPower" Content="Liczba godzin używnia w ciągu dnia" HorizontalAlignment="Left" Margin="10,173,0,0" VerticalAlignment="Top" Width="208" Grid.ColumnSpan="2"/>
-        <Label x:Name="lblNumber" Content="Liczba urządzeń" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Width="261" Grid.ColumnSpan="2"/>
-        <Label x:Name="lblHours" Content="Moc urządzenia [W]" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="261" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Height="23" Margin="305,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
-        <TextBox x:Name="txtPower" HorizontalAlignment="Left" Height="23" Margin="305,72,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
-        <TextBox x:Name="txtNumber" HorizontalAlignment="Left" Height="23" Margin="305,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
-        <TextBox x:Name="txtHours" HorizontalAlignment="Left" Height="23" Margin="305,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
-        <Button x:Name="btnCalculate" Content="Oblicz" HorizontalAlignment="Left" Margin="489,197,0,0" VerticalAlignment="Top" Width="159" Height="48" Click="BtnCalculate_Click" Grid.Column="1"/>
-        <TextBlock x:Name="txtBlock" HorizontalAlignment="Left" Margin="10,223,0,0" TextWrapping="Wrap" Text="WYNIKI" VerticalAlignment="Top" Height="22" Width="163" Grid.ColumnSpan="2"/>
-        <Label x:Name="lblPriceDaily" Content="Dzienny koszt użytkowania" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Width="261" Grid.ColumnSpan="2"/>
-        <Label x:Name="lblPriceMonthly" Content="Miesięczny koszt użytkowania" HorizontalAlignment="Left" Margin="10,281,0,0" VerticalAlignment="Top" Width="261" Grid.ColumnSpan="2"/>
-        <Label x:Name="lblPriceAnnual" Content="Roczny koszt użytkowania" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top" Width="261" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="txtPriceDaily" HorizontalAlignment="Left" Height="23" Margin="305,253,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
-        <TextBox x:Name="txtPriceMonthly" HorizontalAlignment="Left" Height="23" Margin="305,284,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
-        <TextBox x:Name="txtPriceAnnual" HorizontalAlignment="Left" Height="23" Margin="305,315,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <Label x:Name="lblPrice" Content="Price for 1KWh (in Poland average price is 0,57PLN)" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Width="289" Grid.ColumnSpan="3"/>
+        <Label x:Name="lblPower" Content="Number of using hours per day" HorizontalAlignment="Left" Margin="10,173,0,0" VerticalAlignment="Top" Width="208" Grid.ColumnSpan="3"/>
+        <Label x:Name="lblNumber" Content="Number of devices" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Width="261" Grid.ColumnSpan="3"/>
+        <Label x:Name="lblHours" Content="Device power[W]" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="261" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Height="23" Margin="216,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
+        <TextBox x:Name="txtPower" HorizontalAlignment="Left" Height="23" Margin="216,72,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
+        <TextBox x:Name="txtNumber" HorizontalAlignment="Left" Height="23" Margin="216,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
+        <TextBox x:Name="txtHours" HorizontalAlignment="Left" Height="23" Margin="216,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
+        <Button x:Name="btnCalculate" Content="Calculate" HorizontalAlignment="Left" Margin="400,197,0,0" VerticalAlignment="Top" Width="159" Height="48" Click="BtnCalculate_Click" Grid.Column="2"/>
+        <TextBlock x:Name="txtBlock" HorizontalAlignment="Left" Margin="10,223,0,0" TextWrapping="Wrap" Text="Summary" VerticalAlignment="Top" Height="22" Width="163" Grid.ColumnSpan="3"/>
+        <Label x:Name="lblPriceDaily" Content="Daily cost" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Width="261" Grid.ColumnSpan="3"/>
+        <Label x:Name="lblPriceMonthly" Content="Monthly cost" HorizontalAlignment="Left" Margin="10,281,0,0" VerticalAlignment="Top" Width="261" Grid.ColumnSpan="3"/>
+        <Label x:Name="lblPriceAnnual" Content="Annual cost" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top" Width="261" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="txtPriceDaily" HorizontalAlignment="Left" Height="23" Margin="216,253,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
+        <TextBox x:Name="txtPriceMonthly" HorizontalAlignment="Left" Height="23" Margin="216,284,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
+        <TextBox x:Name="txtPriceAnnual" HorizontalAlignment="Left" Height="23" Margin="216,315,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
 
     </Grid>
 </Window>
